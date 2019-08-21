@@ -1,3 +1,8 @@
+/*
+This example shows how to generate a hyperbolic shape
+by twisting circles connected by lines.
+*/
+
 extern crate piston;
 extern crate sdl2_window;
 extern crate opengl_graphics;
