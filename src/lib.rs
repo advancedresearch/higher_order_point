@@ -22,11 +22,11 @@ pub mod ops;
 #[derive(Clone)]
 pub struct Point<T = ()> where f64: Ho<T> {
     /// Function for x-coordinates.
-    pub x: <f64 as Ho<T>>::Fun,
+    pub x: Fun<T, f64>,
     /// Function for y-coordinates.
-    pub y: <f64 as Ho<T>>::Fun,
+    pub y: Fun<T, f64>,
     /// Function for z-coordinates.
-    pub z: <f64 as Ho<T>>::Fun,
+    pub z: Fun<T, f64>,
 }
 
 impl Copy for Point {}
