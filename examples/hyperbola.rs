@@ -120,8 +120,8 @@ pub type HyperbolaFunc<T> = Hyperbola<Arg<T>>;
 
 #[derive(Clone)]
 pub struct Hyperbola<T = ()> where f64: Ho<T> {
-    height: <f64 as Ho<T>>::Fun,
-    phase: <f64 as Ho<T>>::Fun,
+    height: Fun<T, f64>,
+    phase: Fun<T, f64>,
 }
 
 pub trait Edge {
