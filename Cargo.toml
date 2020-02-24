@@ -1,6 +1,6 @@
 [package]
 name = "advancedresearch-higher_order_point"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Sven Nilsen <bvssvni@gmail.com>"]
 edition = "2018"
 exclude = ["images/*"]
@@ -18,7 +18,7 @@ readme = "README.md"
 name = "higher_order_point"
 
 [dependencies]
-advancedresearch-higher_order_core = "0.2.0"
+advancedresearch-higher_order_core = "0.3.0"
 
 [dev-dependencies]
 piston = "0.49.0"
